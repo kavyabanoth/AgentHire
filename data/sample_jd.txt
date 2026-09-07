@@ -1,0 +1,28 @@
+Data Analyst - Entry Level
+
+We are looking for a Data Analyst to join our analytics team. The ideal
+candidate has strong skills in Python and SQL, with hands-on experience
+building dashboards in Power BI or Tableau.
+
+Responsibilities:
+- Analyze large datasets to identify trends and business insights
+- Build and maintain interactive dashboards for stakeholders
+- Write efficient SQL queries to extract and transform data
+- Collaborate with cross-functional teams to define KPIs
+- Present findings to non-technical stakeholders
+
+Required Skills:
+- Python (pandas, numpy)
+- SQL
+- Data visualization (Power BI or Tableau)
+- Strong communication skills
+
+Preferred Skills:
+- Experience with machine learning basics (scikit-learn)
+- Familiarity with cloud platforms (AWS/Azure)
+- Knowledge of A/B testing and statistical analysis
+
+Education: Bachelor's degree in Computer Science, Statistics, Engineering,
+or a related field.
+
+Experience: 0-2 years (internships count).

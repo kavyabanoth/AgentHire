@@ -26,6 +26,8 @@ with st.sidebar:
     user_id = st.text_input("User ID", value="default_user", help="Namespaces your Career Vault entries in ChromaDB")
     company_name = st.text_input("Company Name", value="the company")
     resume_file = st.file_uploader("Upload Resume", type=["pdf", "docx", "txt"])
+    if resume_file is not None:
+        st.success(f"✅ Uploaded: {resume_file.name} ({resume_file.size / 1024:.1f} KB)")
     jd_text = st.text_area("Paste Job Description", height=300, placeholder="Paste the full job description here...")
     run_button = st.button("🚀 Run Pipeline", type="primary", use_container_width=True)
     st.divider()

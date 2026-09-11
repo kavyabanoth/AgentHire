@@ -1,6 +1,6 @@
 # AgentHire AI — Phase 1 Scaffold
 <img width="1920" height="908" alt="Screenshot 2026-09-07 171030" src="https://github.com/user-attachments/assets/0a7f1441-fb75-49f7-aafb-8ee0cf08967a" />
-
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://agenthire-appwu5ixwm62sfdmltykemd.streamlit.app)
 Multi-agent resume tailoring & job-match platform. This scaffold covers
 **Phase 1**: Resume Parser Agent + Career Vault ingestion (ChromaDB).
 

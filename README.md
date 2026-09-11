@@ -2,6 +2,12 @@
 
 **Multi-agent resume tailoring & job-match platform** — powered by LangGraph, Groq (Llama), and ChromaDB.
 
+<img width="1890" height="891" alt="Screenshot 2026-09-11 094349" src="https://github.com/user-attachments/assets/b55414da-b1c6-4624-a661-4a9a0c592b87" />
+<img width="1907" height="892" alt="Screenshot 2026-09-11 094445" src="https://github.com/user-attachments/assets/c597ad8e-488a-45f1-80b2-0ebe28c67425" />
+<img width="1395" height="828" alt="Screenshot 2026-09-11 094523" src="https://github.com/user-attachments/assets/4b58925b-7765-41ca-968d-25ac748bf1d5" />
+<img width="911" height="666" alt="Screenshot 2026-09-11 094555" src="https://github.com/user-attachments/assets/fb09bab8-8857-4dc2-98c0-15e5465c8e38" />
+<img width="1322" height="772" alt="Screenshot 2026-09-11 094705" src="https://github.com/user-attachments/assets/0f3d48b8-b885-40f3-b5ad-da5e8d561c1a" />
+
 ## 🚀 Live Demo
 
 **Try it here:** https://agenthire-appwu5ixwm62sfdmltykemd.streamlit.app
@@ -127,8 +133,9 @@ python test_phase6.py "data/resume.pdf" data/sample_jd.txt kavya "Company"  # co
 python test_phase7.py "data/resume.pdf" data/sample_jd.txt kavya "Company"  # full LangGraph pipeline
 ```
 
-## ⚠️ Known Limitations
+- ## ⚠️ Known Limitations
 
+- **The app sleeps after inactivity** — Streamlit Community Cloud's free tier puts apps to sleep after a period without visitors. The first person to open the link after a while will see a "This app has gone to sleep" screen and need to click a button to wake it; the app then takes 30-60 seconds to restart. This is a hosting-tier limitation, not an application bug — subsequent visits are fast until it sleeps again.
 - **Career Vault doesn't persist across Streamlit Cloud restarts** — ChromaDB writes to local disk, which is ephemeral on the free hosting tier. Each pipeline run re-ingests fresh, so functionality is unaffected, but there's no long-term memory across sessions in the deployed version.
 - **Education scoring** (within Match Score) uses a single embedding comparison — the least sophisticated of the three sub-scores.
 - **Free-tier LLM output** occasionally has minor formatting glitches (e.g. dropped spaces at line-wrap boundaries).
